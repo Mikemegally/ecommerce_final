@@ -34,7 +34,7 @@ Route::get('/dashboard', function () {
     } else{
         return redirect()->route('userproduct.index');
     }
-})->middleware(['auth', 'verified'])->name('dashboard');
+})->middleware('auth')->name('dashboard');
 
 
 
@@ -50,7 +50,7 @@ Route::middleware('auth')->group(function () {
     Route::resource('users', UserController::class)->middleware('Admin');
     //admin control user
 
-    Route::resource('userproduct', UserProductController::class);
+    Route::resource('userproduct', UserProductController::class)->middleware('verified');
     //search and all products added by admin,view the product
 
     Route::get('cart/add/{id}',[AddToCartController::class,'addToCart'])->name('cart.add');
