@@ -154,6 +154,11 @@
 
 
                 <div class="container-fluid px-4 px-lg-5 mt-5">
+                    <form action="{{route('userproduct.index')}}" method="get" class="text-center mb-5">
+                        @csrf
+                        <input class="border border-1 rounded-pill p-3 px-3 col-12 col-md-8 shadow-none" type="text"
+                               placeholder="enter your product name....." name="search"/>
+                    </form>
                     <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                         <div class="col mb-5">
                             <div class="card h-100">
