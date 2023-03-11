@@ -161,6 +161,11 @@
             <input class="border border-1 rounded-pill p-3 px-3 col-12 col-md-8 shadow-none" type="text"
                    placeholder="enter your product name....." name="search"/>
         </form>
+        @if(session()->has('success'))
+            <p class="container alert alert-secondary mt-2 text-center fw-bold">
+                {{session()->get('success')}}
+            </p>
+        @endif
         <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
             @foreach( $products as  $product)
             <div class="col mb-5">

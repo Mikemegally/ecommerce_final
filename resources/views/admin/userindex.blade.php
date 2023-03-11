@@ -14,7 +14,8 @@
             <th scope="col">Email</th>
             <th scope="col">Role</th>
             <th scope="col">Show user</th>
-            <th scope="col">delete user</th>
+            <th scope="col">Add user</th>
+            <th scope="col">Delete user</th>
         </tr>
         </thead>
         <tbody>
@@ -28,6 +29,10 @@
             </td>
             <td>
                 <a class="btn btn-secondary" href="{{route('users.show',$user->id)}}">show user</a>
+            </td>
+
+            <td>
+                <a class="btn btn-secondary" href="{{route('users.create')}}">Add user</a>
             </td>
             <td>
                 <form action="{{route('users.destroy',$user->id)}}" method="post">

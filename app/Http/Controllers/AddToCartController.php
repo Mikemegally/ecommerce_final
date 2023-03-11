@@ -20,7 +20,7 @@ class AddToCartController extends Controller
         $cart = $_SESSION['cart'];
         $cart[] = $product;
         $_SESSION['cart'] = $cart;
-        return redirect()->route('userproduct.index');
+        return redirect()->route('userproduct.index')->with('success','product added to cart');
     }
 
     public function cart()

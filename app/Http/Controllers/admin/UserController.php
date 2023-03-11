@@ -22,7 +22,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.usercreate');
     }
 
     /**
@@ -30,7 +30,12 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        User::create([
+            'name'=>$request['name'],
+            'email'=>$request['email'],
+            'password'=>$request['password'],
+        ]);
+        return redirect()->route('users.index')->with('success','user added successfully');
     }
 
     /**
