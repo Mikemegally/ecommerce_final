@@ -36,6 +36,6 @@ class AddToCartController extends Controller
         $cart = $_SESSION['cart'];
         $newCart = array_filter($cart,fn($item)=>$item['id']!=$id);
         $_SESSION['cart'] = $newCart;
-        return redirect()->back();
+        return redirect()->back()->with('success','product removed from cart successfully');
     }
 }

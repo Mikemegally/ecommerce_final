@@ -1,6 +1,11 @@
 @extends('layouts.user')
 
 @section('user')
+    @if(session()->has('success'))
+        <p class="container alert alert-secondary mt-2 text-center fw-bold">
+            {{session()->get('success')}}
+        </p>
+    @endif
     <div class="container-fluid px-4 px-lg-5 mt-5">
     <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
         @foreach( $products as  $product)
