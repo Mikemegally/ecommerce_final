@@ -27,7 +27,7 @@
                     <li><a class="dropdown-item" href="{{route('adminproduct.index')}}">All Products</a></li>
                     <li><hr class="dropdown-divider" /></li>
                     <li><a class="dropdown-item" href="{{route('users.index')}}">All users</a></li>
-                    <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                    <li><a class="dropdown-item" href="{{route('users.create')}}">Add New User</a></li>
                 </ul>
             </li>
         </ul>

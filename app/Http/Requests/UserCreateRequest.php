@@ -19,12 +19,18 @@ class UserCreateRequest extends FormRequest
      *
      * @return array<string, \Illuminate\Contracts\Validation\Rule|array|string>
      */
-    public function rules(): array
+    public function rules()
     {
         return [
             'name'=>['required','string'],
             'email'=>['required','email','unique:users,email'],
             'password'=>['required','confirmed','min:8'],
+        ];
+    }
+    public function messages()
+    {
+        return [
+            'password.confirmed'=>'password does not match the confirm password'
         ];
     }
 }
