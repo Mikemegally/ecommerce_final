@@ -7,8 +7,8 @@
       </div>
       <div class="card-body">
           <p>Admin page is to control the site by adding products, view all users, deleting them.</p>
-          <p class="mb-0">Before working with this theme, you should become familiar with the
-              Bootstrap framework, especially the utility classes.</p>
+          <p class="mb-0">working in admin page is like a control panel
+              to add directly to your site.</p>
       </div>
   </div>
 @endsection
