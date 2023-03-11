@@ -1,11 +1,6 @@
 
 @extends('layouts.admin')
 @section('content')
-    @if(session()->has('success'))
-        <p class="container alert alert-success mt-3 text-center">
-            {{session()->get('success')}}
-        </p>
-    @endif
     <div class="container mt-5">
         <h3 class="text text-dark mb-5">
             Add User
@@ -19,7 +14,7 @@
                 </ul>
             </div>
         @endif
-        <form action="" method="POST" >
+        <form action="{{route('users.store')}}" method="POST" >
             @csrf
             <div class="mb-3 row">
                 <label for="name" class="col-sm-2 col-form-label fw-bold">User Name</label>
@@ -34,7 +29,7 @@
                 </div>
             </div>
             <div class="mb-3 row">
-                <label for="password" class="col-sm-2 col-form-label fw-bold">Product password</label>
+                <label for="password" class="col-sm-2 col-form-label fw-bold">password</label>
                 <div class="col-sm-10">
                     <input type="password"  class="form-control" id="password"  name="password">
                 </div>
