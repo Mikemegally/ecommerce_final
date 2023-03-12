@@ -34,7 +34,7 @@ class ProductCreateRequest extends FormRequest
     public function messages()
     {
         return [
-            'category_id.required'=>['category name is required']
+            'category_id.required'=>'category name is required'
         ];
     }
 }
