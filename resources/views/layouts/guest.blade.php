@@ -6,7 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>{{ config('app.name', 'Laravel') }}</title>
-
+        <link rel="stylesheet" href="https://kit.fontawesome.com/a27e1ce134.css" crossorigin="anonymous">
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
@@ -26,5 +26,6 @@
                 {{ $slot }}
             </div>
         </div>
+        <script src="https://kit.fontawesome.com/a27e1ce134.js" crossorigin="anonymous"></script>
     </body>
 </html>
