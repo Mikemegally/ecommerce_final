@@ -4,6 +4,7 @@ use App\Http\Controllers\AddToCartController;
 use App\Http\Controllers\admin\AdminProductController;
 use App\Http\Controllers\admin\CategoryController;
 use App\Http\Controllers\admin\UserController;
+use App\Http\Controllers\LoginWithFacebookController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserProductController;
 use Illuminate\Support\Facades\Route;
@@ -57,6 +58,7 @@ Route::middleware('auth')->group(function () {
     Route::get('cart',[AddToCartController::class,'cart'])->name('cart');
     Route::get('cart/remove/{id}',[AddToCartController::class,'removeFromCart'])->name('cart.remove');
 });
-
+Route::get('/redirect', [LoginWithFacebookController::class, 'redirectFacebook']);
+Route::get('/callback', [LoginWithFacebookController::class, 'facebookCallback']);
 
 require __DIR__.'/auth.php';
