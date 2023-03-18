@@ -178,7 +178,7 @@
                                             <div class="bi-star-fill"></div>
                                         </div>
                                         <!-- Product price-->
-                                        $40.00 - $80.00
+                                        40.00LE - 80.00LE
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -193,8 +193,6 @@
                         </div>
                         <div class="col mb-5">
                             <div class="card h-100">
-                                <!-- Sale badge-->
-                                <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
                                 <!-- Product image-->
                                 <img class="card-img-top" src="{{asset('images/6.png')}}" alt="..." />
                                 <!-- Product details-->
@@ -211,8 +209,8 @@
                                             <div class="bi-star-fill"></div>
                                         </div>
                                         <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">$20.00</span>
-                                        $18.00
+                                        <span class="text-muted text-decoration-line-through">800.00LE</span>
+                                        500.00LE
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -227,8 +225,6 @@
                         </div>
                         <div class="col mb-5">
                             <div class="card h-100">
-                                <!-- Sale badge-->
-                                <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
                                 <!-- Product image-->
                                 <img class="card-img-top" src="{{asset('images/7.png')}}" alt="..." />
                                 <!-- Product details-->
@@ -244,9 +240,7 @@
                                             <div class="bi-star-fill"></div>
                                             <div class="bi-star-fill"></div>
                                         </div>
-                                        <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">$50.00</span>
-                                        $25.00
+                                        250.00LE
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -277,7 +271,7 @@
                                             <div class="bi-star-fill"></div>
                                         </div>
                                         <!-- Product price-->
-                                        $40.00
+                                        400.00LE
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -307,9 +301,7 @@
                                             <div class="bi-star-fill"></div>
                                             <div class="bi-star-fill"></div>
                                         </div>
-                                        <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">$50.00</span>
-                                        $25.00
+                                        300.00LE
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -339,8 +331,7 @@
                                             <div class="bi-star-fill"></div>
                                             <div class="bi-star-fill"></div>
                                         </div>
-                                        <!-- Product price-->
-                                        $120.00 - $280.00
+                                        380.00LE
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -370,9 +361,7 @@
                                             <div class="bi-star-fill"></div>
                                             <div class="bi-star-fill"></div>
                                         </div>
-                                        <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">$20.00</span>
-                                        $18.00
+                                        300.00LE
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -403,7 +392,7 @@
                                             <div class="bi-star-fill"></div>
                                         </div>
                                         <!-- Product price-->
-                                        $40.00
+                                        400.00LE
                                     </div>
                                 </div>
                                 <!-- Product actions-->
