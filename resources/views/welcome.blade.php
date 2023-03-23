@@ -409,7 +409,7 @@
                 </div>
 
 
-                <!-- ***** Men Area Starts ***** -->
+                <!--  Men Area Starts -->
                 <section class="section" id="men">
                     <div class="container">
                         <div class="row">
@@ -524,9 +524,9 @@
                         </div>
                     </div>
                 </section>
-                <!-- ***** Men Area Ends ***** -->
+                <!-- Men Area Ends -->
 
-                <!-- ***** Women Area Starts ***** -->
+                <!--Women Area Starts -->
                 <section class="section" id="women">
                     <div class="container">
                         <div class="row">
@@ -641,7 +641,7 @@
                         </div>
                     </div>
                 </section>
-                <!-- ***** Women Area Ends ***** -->
+                <!-- Women Area Ends -->
 
                 <!--Footer Start -->
                 <footer>

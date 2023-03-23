@@ -30,23 +30,6 @@
     </head>
 
     <body>
-
-
-{{--    <div id="preloader">--}}
-{{--        <div class="jumper">--}}
-{{--            <div></div>--}}
-{{--            <div></div>--}}
-{{--            <div></div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-
-
-    <!-- ***** Header Area Start ***** -->
-
-
-    <!-- ***** Header Area End ***** -->
-
-    <!-- ***** Main Banner Area Start ***** -->
     <div class="main-banner" id="top">
         <div class="container-fluid">
             <div class="row">
@@ -152,7 +135,7 @@
             </div>
         </div>
     </div>
-    <!-- ***** Main Banner Area End ***** -->
+    <!--nav ends -->
 
 
     <div class="container-fluid px-4 px-lg-5 mt-5">
@@ -438,83 +421,7 @@
             </div>
         </div>
     </section>
-    <!-- ***** Women Area Ends ***** -->
-
-    <!-- ***** Explore Area Starts ***** -->
-{{--    <section class="section" id="explore">--}}
-{{--        <div class="container">--}}
-{{--            <form action="" method="" class="text-center mb-5">--}}
-{{--                @csrf--}}
-{{--                <input class="border border-1 rounded-pill p-3 px-3 col-12 col-md-8 shadow-none" type="text"--}}
-{{--                       placeholder="enter your product name....." name="search"/>--}}
-{{--            </form>--}}
-{{--            <div class="row justify-content-center ">--}}
-{{--                <div class="col-lg-4" id="searchproduct">--}}
-{{--                    <img src="{{asset('images/explore-image-02.jpg')}}" alt="">--}}
-{{--                    <div class=""><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a>--}}
-{{--                        <a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col-lg-4" id="searchproduct">--}}
-{{--                    <img src="{{asset('images/explore-image-02.jpg')}}" alt="">--}}
-{{--                    <h4>title</h4>--}}
-{{--                    <span>price</span>--}}
-{{--                    <p class="text text-primary">description</p>--}}
-{{--                    <div class=""><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>--}}
-{{--                </div>--}}
-{{--                <div class="col-lg-4" id="searchproduct">--}}
-{{--                    <img src="{{asset('images/explore-image-02.jpg')}}" alt="">--}}
-{{--                    <h4>title</h4>--}}
-{{--                    <span>price</span>--}}
-{{--                    <p class="text text-primary">description</p>--}}
-{{--                    <div class=""><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>--}}
-{{--                </div>--}}
-
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </section>--}}
-
-
-    <!-- ***** Explore Area Ends ***** -->
-
-    <!-- ***** Subscribe Area Starts ***** -->
-    {{--<div class="subscribe">--}}
-    {{--    <div class="container">--}}
-    {{--        <div class="row">--}}
-    {{--            <div class="col-lg-8">--}}
-    {{--                <div class="section-heading">--}}
-    {{--                    <h2>By Subscribing To Our Newsletter You Can Get 30% Off</h2>--}}
-    {{--                    <span>Details to details is what makes Hexashop different from the other themes.</span>--}}
-    {{--                </div>--}}
-    {{--                <form id="subscribe" action="" method="get">--}}
-    {{--                    <div class="row">--}}
-    {{--                        <div class="col-lg-5">--}}
-    {{--                            <fieldset>--}}
-    {{--                                <input name="name" type="text" id="name" placeholder="Your Name" required="">--}}
-    {{--                            </fieldset>--}}
-    {{--                        </div>--}}
-    {{--                        <div class="col-lg-5">--}}
-    {{--                            <fieldset>--}}
-    {{--                                <input name="email" type="text" id="email" placeholder="Your Email Address" required="">--}}
-    {{--                            </fieldset>--}}
-    {{--                        </div>--}}
-    {{--                        <div class="col-lg-2">--}}
-    {{--                            <fieldset>--}}
-    {{--                                <button type="submit" id="form-submit" class="main-dark-button"><i class="fa fa-paper-plane"></i></button>--}}
-    {{--                            </fieldset>--}}
-    {{--                        </div>--}}
-    {{--                    </div>--}}
-    {{--                </form>--}}
-    {{--            </div>--}}
-    {{--            <div class="col-lg-4">--}}
-    {{--                <div class="row">--}}
-
-    {{--                </div>--}}
-    {{--            </div>--}}
-    {{--        </div>--}}
-    {{--    </div>--}}
-    {{--</div>--}}
-
+    <!-- Women Area Ends -->
 
     <!--Footer Start -->
     <footer>
